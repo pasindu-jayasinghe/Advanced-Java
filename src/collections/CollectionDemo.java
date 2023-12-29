@@ -1,7 +1,9 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 public class CollectionDemo {
     public static void show(){
@@ -12,5 +14,7 @@ public class CollectionDemo {
         other.addAll(collection);
         System.out.println(collection == other);
         System.out.println(collection.equals(other));
+
+
     }
 }

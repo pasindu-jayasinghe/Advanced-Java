@@ -24,6 +24,8 @@ public class MapDemo {
         for (var customer : map.values()){
             System.out.println(customer);
         }
+
+
     }
 
 }

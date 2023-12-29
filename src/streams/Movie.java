@@ -1,6 +1,6 @@
 package streams;
 
-public class Movie {
+public class Movie implements Comparable<Movie> {
     private String title;
     private Integer likes;
 
@@ -13,4 +13,12 @@ public class Movie {
         return likes;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    @Override
+    public int compareTo(Movie o) {
+        return 0;
+    }
 }
